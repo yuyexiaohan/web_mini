@@ -205,7 +205,6 @@ def show_update_page(ret):
 
     content = re.sub(r"\{%note_info%\}", note_info, content)
     content = re.sub(r"\{%code%\}", stock_code, content)
-
     return content
 
 
