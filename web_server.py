@@ -95,7 +95,7 @@ class WSGIServer(object):
 
     def set_response_header(self, status, headers):
         self.status = status
-        self.headers = [("server", "mini_web v8.8")]
+        self.headers = [("server", "mini_web v1.0")]
         self.headers += headers
         
 
